@@ -1,0 +1,172 @@
+import React from 'react';
+import { ArrowRight, Users, Target, Handshake } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import ImageSlider from '../components/ImageSlider';
+
+// --- Placeholder Images ---
+// IMPORTANT: Create a 'public/images' folder and place your images there.
+// Then update these paths accordingly. For example: '/images/factory.jpg'
+const storyImages = [
+  'https://www.just-style.com/wp-content/uploads/sites/27/2024/01/GettyImages-1242811114.jpg',
+  'https://www.greenqueen.com.hk/wp-content/uploads/2020/05/vietnam-garment-worker-ShutterstockJimmy-Tran.png',
+  'https://imageio.forbes.com/specials-images/imageserve/634f53cbe4d1828abfc9a293/Sadika-Tun-Nesa--a-garment-worker-at-Snowtex-garment-factory-in-Bangladesh/960x0.jpg?format=jpg&width=1440',
+  'https://i0.wp.com/rmgbd.net/wp-content/uploads/2020/12/ctg_garments_business_news_photos5.jpg?fit=1400%2C788&ssl=1',
+];
+
+const categoryImages = {
+  men: 'https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  women: 'https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  kids: 'https://images.unsplash.com/photo-1578897367002-2873f26520fd?q=80&w=1665&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+};
+
+const Home = () => {
+  return (
+    <div className="space-y-16">
+      {/* Hero Section (remains the same) */}
+      <div
+        className="relative h-[600px] bg-cover bg-center"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1637228393246-c38a4b3d2011?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1637228393246-c38a4b3d2011?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/80 to-black/60" />
+        <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
+          <div className="text-white max-w-3xl ml-4">
+            <h1 className="text-5xl font-bold mb-4">MIB Tex: Weaving a Future of Shared Success</h1>
+            <p className="text-xl mb-8">Partner with a ready-made garment manufacturer built on fairness, opportunity, and the belief that everyone deserves a share of the success they create.</p>
+            <Link
+              to="/catalogue"
+              className="group inline-flex items-center bg-white text-indigo-700 px-6 py-3 rounded-lg font-semibold hover:bg-[#FDD46B] transition-colors"
+            >
+              Explore Our Collections
+              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Story Section - Updated Layout */}
+      <div className="max-w-7xl mx-auto px-4 py-16">
+         <div className="text-center mb-12 md:mb-16">
+           <h2 className="text-3xl font-bold mb-4 text-gray-800">"Creating a Future of Fairness and Opportunity"</h2>
+           <p className="text-indigo-600 font-semibold text-lg">The Story of MIB Tex</p>
+         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Left Column: Image Slider */}
+          <div className="w-full h-80 md:h-96"> {/* Adjust height as needed */}
+            <ImageSlider images={storyImages} />
+          </div>
+
+          {/* Right Column: Text */}
+          <div className="text-gray-700 space-y-6 leading-relaxed text-justify"> {/* Added text-justify */}
+            <p>
+              In the heart of the textile industry, where labor is often undervalued and workers are seen as just another part of the supply chain, we dared to dream differently. We were once just workers ourselves—clocking in, collecting salaries, and heading home, feeling like mere cogs in a vast machine.
+            </p>
+            <p>
+              But deep inside, we knew there had to be a better way—a way where everyone, from the factory floor to the management office, could work <em className="font-semibold text-indigo-700">for themselves</em>, not just for others.
+            </p>
+            <p className="text-lg font-medium text-gray-800"> {/* Adjusted text size */}
+              That belief became the foundation of MIB Tex, a textile company built on the radical idea that <strong className="text-indigo-700">everyone deserves a share of the success they create.</strong>
+            </p>
+            <p>
+              We invite retailers to join us in this vision. Partnering with MIB Tex means more than just sourcing quality garments; it means supporting a model of ethical production and shared prosperity.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Why Partner With Us Section (remains the same) */}
+      <div className="bg-indigo-50 py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-gray-800">Why Partner With MIB Tex?</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Beyond quality manufacturing, we offer a partnership built on shared values and mutual growth.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 hover:bg-[#FD976D] transition-transform duration-300">
+              <div className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                <Users className="h-6 w-6 text-indigo-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Empowered Workforce</h3>
+              <p className="text-gray-600">
+                Our unique model fosters dedication and high-quality work because our team shares in the company's success.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 hover:bg-[#FD976D] transition-transform duration-300">
+              <div className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                <Target className="h-6 w-6 text-indigo-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Ethical Production</h3>
+              <p className="text-gray-600">
+                Align your brand with a manufacturer committed to fair labor practices and sustainable growth.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 hover:bg-[#FD976D] transition-transform duration-300">
+              <div className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                <Handshake className="h-6 w-6 text-indigo-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Reliable Partnership</h3>
+              <p className="text-gray-600">
+                We believe in building long-term relationships with retailers based on trust, transparency, and shared goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       {/* Collections Section - Simplified (remains the same) */}
+       <div className="max-w-7xl mx-auto px-4 py-16">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4">Explore Our Capabilities</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Discover the range of high-quality ready-made garments we produce.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <Link to="/catalogue?category=men" className="group block bg-gray-100 rounded-xl shadow hover:bg-[#FDD46B] transition-shadow duration-300 relative overflow-hidden">
+            <img src={categoryImages.men} alt="Men's Apparel" className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div className="relative p-4">
+              <h3 className="text-xl font-semibold mb-1">Men's Apparel</h3>
+              <p className="text-gray-600">Quality garments for the modern man.</p>
+              <span className="inline-flex items-center text-indigo-600 mt-2 font-medium">View Details <ArrowRight className="ml-1 h-4 w-4" /></span>
+            </div>
+          </Link>
+
+          <Link to="/catalogue?category=women" className="group block bg-gray-100 rounded-xl shadow hover:bg-[#FDD46B] transition-shadow duration-300 relative overflow-hidden">
+            <img src={categoryImages.women} alt="Women's Apparel" className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div className="relative p-4">
+              <h3 className="text-xl font-semibold mb-1">Women's Apparel</h3>
+              <p className="text-gray-600">Elegant and contemporary designs.</p>
+              <span className="inline-flex items-center text-indigo-600 mt-2 font-medium">View Details <ArrowRight className="ml-1 h-4 w-4" /></span>
+            </div>
+          </Link>
+
+          <Link to="/catalogue?category=kids" className="group block bg-gray-100 rounded-xl shadow hover:bg-[#FDD46B] transition-shadow duration-300 relative overflow-hidden">
+            <img src={categoryImages.kids} alt="Kids' Apparel" className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div className="relative p-4">
+              <h3 className="text-xl font-semibold mb-1">Kids' Apparel</h3>
+              <p className="text-gray-600">Comfortable and stylish clothing for children.</p>
+              <span className="inline-flex items-center text-indigo-600 mt-2 font-medium">View Details <ArrowRight className="ml-1 h-4 w-4" /></span>
+            </div>
+          </Link>
+        </div>
+         <div className="text-center mt-12">
+            <Link
+              to="/catalogue"
+              className="inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
+            >
+              See Full Catalogue
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </div>
+      </div>
+
+    </div>
+  );
+}
+
+export default Home;
