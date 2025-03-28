@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
                 <Shirt className="h-8 w-8 text-indigo-600" />
-                <span className="ml-2 text-xl font-bold text-gray-800">MIB Tex</span> {/* Updated Name */}
+                <span className="ml-2 text-xl font-bold text-gray-800">Made In Bangladesh</span> {/* Updated Name */}
               </Link>
             </div>
 
