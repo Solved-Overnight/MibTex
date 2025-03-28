@@ -15,11 +15,11 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-1 text-indigo-600" /> {/* Added color */}
-                <span>+1 234 567 890</span>
+                <span>+880 1710237055</span>
               </div>
               <div className="hidden sm:flex items-center">
                 <Mail className="h-4 w-4 mr-1 text-indigo-600" /> {/* Added color */}
-                <span>info@mibtex.com</span> {/* Updated email */}
+                <span>mibtex.info@gmail.com</span> {/* Updated email */}
               </div>
             </div>
             {/* Removed Track Order/Store Locator for focus */}
@@ -172,11 +172,11 @@ const Navbar = () => {
             <div className="mt-3 px-2 space-y-1">
                <div className="flex items-center px-3 py-2">
                  <Phone className="h-5 w-5 text-gray-500 mr-2" />
-                 <span className="text-base font-medium text-gray-600">+1 234 567 890</span>
+                 <span className="text-base font-medium text-gray-600">+880 1710237055</span>
                </div>
                <div className="flex items-center px-3 py-2">
                  <Mail className="h-5 w-5 text-gray-500 mr-2" />
-                 <span className="text-base font-medium text-gray-600">info@mibtex.com</span>
+                 <span className="text-base font-medium text-gray-600">mibtex.info.com</span>
                </div>
             </div>
           </div>

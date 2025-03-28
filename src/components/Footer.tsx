@@ -19,27 +19,26 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>+1 234 567 890</span>
+                <span>+880 1710237055</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                <span>info@fashionhub.com</span>
+                <span>mibtex.info@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2" />
-                <span>123 Fashion Street, NY</span>
+                <span>Payra Chattar, Rangpur, Bangladesh</span>
               </li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Business Hours</h3>
-            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-            <p>Saturday: 10:00 AM - 4:00 PM</p>
+            <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
             <p>Sunday: Closed</p>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; 2024 FashionHub. All rights reserved.</p>
+          <p>&copy; 2025 MIB Tex. All rights reserved.</p>
         </div>
       </div>
     </footer>

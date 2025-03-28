@@ -60,22 +60,22 @@ const Contact = () => {
                 <Phone className="h-5 w-5 text-indigo-600 mr-3" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-gray-600">+1 234 567 890</p>
+                  <p className="text-gray-600">+880 1710237055</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-indigo-600 mr-3" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-600">info@fashionhub.com</p>
+                  <p className="text-gray-600">mibtex.info@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-indigo-600 mr-3" />
                 <div>
                   <p className="font-medium">Address</p>
-                  <p className="text-gray-600">123 Fashion Street</p>
-                  <p className="text-gray-600">New York, NY 10001</p>
+                  <p className="text-gray-600">Payra Chattar</p>
+                  <p className="text-gray-600">Rangpur city, Bangladesh</p>
                 </div>
               </div>
             </div>
@@ -85,12 +85,8 @@ const Contact = () => {
             <h2 className="text-xl font-semibold mb-6">Business Hours</h2>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <span>Monday - Friday</span>
+                <span>Monday - Saturday</span>
                 <span>9:00 AM - 6:00 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Saturday</span>
-                <span>10:00 AM - 4:00 PM</span>
               </div>
               <div className="flex justify-between">
                 <span>Sunday</span>

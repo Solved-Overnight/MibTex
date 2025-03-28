@@ -53,29 +53,29 @@ const Home = () => {
 
       {/* Our Story Section - Updated Layout */}
       <div className="max-w-7xl mx-auto px-4 py-16">
-         <div className="text-center mb-12 md:mb-16">
-           <h2 className="text-3xl font-bold mb-4 text-gray-800">"Creating a Future of Fairness and Opportunity"</h2>
-           <p className="text-indigo-600 font-semibold text-lg">The Story of MIB Tex</p>
-         </div>
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl font-bold mb-4 text-gray-800">"Empowering a Future of Fairness and Opportunity"</h2>
+          <p className="text-indigo-600 font-semibold text-lg">The Journey of MIB Tex</p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Image Slider */}
-          <div className="w-full h-80 md:h-96"> {/* Adjust height as needed */}
+          <div className="w-full h-80 md:h-96">
             <ImageSlider images={storyImages} />
           </div>
 
           {/* Right Column: Text */}
-          <div className="text-gray-700 space-y-6 leading-relaxed text-justify"> {/* Added text-justify */}
+          <div className="text-gray-700 space-y-6 leading-relaxed text-justify">
             <p>
-              In the heart of the textile industry, where labor is often undervalued and workers are seen as just another part of the supply chain, we dared to dream differently. We were once just workers ourselves—clocking in, collecting salaries, and heading home, feeling like mere cogs in a vast machine.
+              At MIB Tex, we envisioned a transformative approach to the textile industry—one that values every individual in the production chain. Our journey began as workers, striving to make a difference in an industry where labor is often undervalued.
             </p>
             <p>
-              But deep inside, we knew there had to be a better way—a way where everyone, from the factory floor to the management office, could work <em className="font-semibold text-indigo-700">for themselves</em>, not just for others.
+              Driven by the belief that <em className="font-semibold text-indigo-700">everyone deserves a share of the success they create</em>, we established MIB Tex as a company built on fairness, opportunity, and shared prosperity.
             </p>
-            <p className="text-lg font-medium text-gray-800"> {/* Adjusted text size */}
-              That belief became the foundation of MIB Tex, a textile company built on the radical idea that <strong className="text-indigo-700">everyone deserves a share of the success they create.</strong>
+            <p className="text-lg font-medium text-gray-800">
+              Today, MIB Tex stands as a testament to the power of collaboration and ethical practices, offering retailers a chance to partner with a manufacturer that prioritizes quality, integrity, and mutual growth.
             </p>
             <p>
-              We invite retailers to join us in this vision. Partnering with MIB Tex means more than just sourcing quality garments; it means supporting a model of ethical production and shared prosperity.
+              Join us in redefining the textile industry. Partnering with MIB Tex means more than sourcing garments—it’s about supporting a vision of ethical production and sustainable success.
             </p>
           </div>
         </div>
@@ -124,8 +124,8 @@ const Home = () => {
         </div>
       </div>
 
-       {/* Collections Section - Simplified (remains the same) */}
-       <div className="max-w-7xl mx-auto px-4 py-16">
+      {/* Collections Section - Simplified (remains the same) */}
+      <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Explore Our Capabilities</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -160,15 +160,15 @@ const Home = () => {
             </div>
           </Link>
         </div>
-         <div className="text-center mt-12">
-            <Link
-              to="/catalogue"
-              className="inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
-            >
-              See Full Catalogue
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </div>
+        <div className="text-center mt-12">
+          <Link
+            to="/catalogue"
+            className="inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
+          >
+            See Full Catalogue
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Link>
+        </div>
       </div>
 
     </div>
