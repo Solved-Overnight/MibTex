@@ -7,10 +7,15 @@ import ImageSlider from '../components/ImageSlider';
 // IMPORTANT: Create a 'public/images' folder and place your images there.
 // Then update these paths accordingly. For example: '/images/factory.jpg'
 const storyImages = [
-  'https://www.just-style.com/wp-content/uploads/sites/27/2024/01/GettyImages-1242811114.jpg',
-  'https://www.greenqueen.com.hk/wp-content/uploads/2020/05/vietnam-garment-worker-ShutterstockJimmy-Tran.png',
-  'https://imageio.forbes.com/specials-images/imageserve/634f53cbe4d1828abfc9a293/Sadika-Tun-Nesa--a-garment-worker-at-Snowtex-garment-factory-in-Bangladesh/960x0.jpg?format=jpg&width=1440',
-  'https://i0.wp.com/rmgbd.net/wp-content/uploads/2020/12/ctg_garments_business_news_photos5.jpg?fit=1400%2C788&ssl=1',
+  'img\img1.jpeg',
+  'img\img2.jpeg',
+  'img\img3.jpeg',
+  'img\img4.jpeg',
+  'img\img5.jpeg',
+  'img\img6.jpeg',
+  'img\img7.jpeg',
+  'img\img8.jpeg',
+  'img\img9.jpeg',
 ];
 
 const categoryImages = {
