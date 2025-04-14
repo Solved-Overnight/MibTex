@@ -20,9 +20,9 @@ const storyImages = [
 ];
 
 const categoryImages = {
-  men: 'https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  women: 'https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  kids: 'https://images.unsplash.com/photo-1578897367002-2873f26520fd?q=80&w=1665&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  men: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_man_model.jpg',
+  women: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_woman_model.jpg',
+  kids: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_child_model.jpg',
 };
 
 const Home = () => {
