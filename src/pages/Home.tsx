@@ -14,7 +14,7 @@ const storyImages = [
 ];
 
 const categoryImages = {
-  men: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_man_model.jpg',
+  men: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_man_model_2.jpg',
   women: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_woman_model.jpg',
   kids: 'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/home_child_model.jpg',
 };
