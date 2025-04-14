@@ -112,11 +112,11 @@ export const products: Product[] = [
   },
   {
     id: 11,
-    name: "Kids' Denim Overalls",
+    name: "Kids' Summer Playwear Set",
     category: "kids",
     price: 20.99,
     image: "https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/collections/child_denim_1.jpg",
-    description: "Playful and durable denim overalls",
+    description: "Offers comfort and charm in every step",
     isNewArrival: true,
     isPopular: true,
   },
