@@ -54,7 +54,7 @@ const Home = () => {
       {/* Collections Section - Simplified (remains the same) */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Explore Our Capabilities</h2>
+          <h2 className="text-3xl font-bold mb-4">Explore Our Wide Range Product</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Discover the range of high-quality ready-made garments we produce.
           </p>
