@@ -7,7 +7,6 @@ import ImageSlider from '../components/ImageSlider';
 // IMPORTANT: Create a 'public/images' folder and place your images there.
 // Then update these paths accordingly. For example: '/images/factory.jpg'
 const storyImages = [
-  'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/img10.jpeg',
   'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/img7.jpg',
   'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/img9.jpeg',
   'https://raw.githubusercontent.com/Solved-Overnight/MibTex/refs/heads/main/img/img4.jpg',
